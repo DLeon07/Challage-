@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Encriptador de Texto</h1>
+        <textarea id="input-text" placeholder="Ingrese su texto aquí"></textarea>
+        <div class="button-group">
+            <button onclick="encriptar()">Encriptar</button>
+            <button onclick="desencriptar()">Desencriptar</button>
+        </div>
+        <textarea id="output-text" readonly placeholder="Resultado"></textarea>
+        <button onclick="copiarTexto()" class="copy-btn">Copiar</button>
+        <p id="validation-message"></p>
+    </div>
+    <footer>
+        <p>Creado por Daniel Moraga - 25/8/2024</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+ 
